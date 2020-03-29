@@ -1,14 +1,14 @@
 from __future__ import print_function, division
 import scipy
 
-from tensorflow.keras.datasets import mnist
+from tensorflow.python.keras.datasets import mnist
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
-from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
-from tensorflow.keras.layers import BatchNormalization, Activation, ZeroPadding2D
-from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.convolutional import UpSampling2D, Conv2D
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.python.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
+from tensorflow.python.keras.layers import BatchNormalization, Activation, ZeroPadding2D
+from tensorflow.python.keras.layers.advanced_activations import LeakyReLU
+from tensorflow.python.keras.layers.convolutional import UpSampling2D, Conv2D
+from tensorflow.python.keras.models import Sequential, Model
+from tensorflow.python.keras.optimizers import Adam
 import datetime
 import matplotlib.pyplot as plt
 import sys
