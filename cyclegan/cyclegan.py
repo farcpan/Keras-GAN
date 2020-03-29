@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 import scipy
 
-from tensorflow.python.tensorflow.python.keras.datasets import mnist
+from tensorflow.python.keras.datasets import mnist
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
 from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
 from tensorflow.keras.layers import BatchNormalization, Activation, ZeroPadding2D
