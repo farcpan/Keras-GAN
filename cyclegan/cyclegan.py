@@ -5,7 +5,7 @@ from tensorflow.keras.datasets import mnist
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
 from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
 from tensorflow.keras.layers import BatchNormalization, Activation, ZeroPadding2D
-from tensorflow.keras.layers.advanced_activations import LeakyReLU
+from keras.layers.advanced_activations import LeakyReLU
 from tensorflow.keras.layers.convolutional import UpSampling2D, Conv2D
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.optimizers import Adam
