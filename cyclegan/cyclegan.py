@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 import scipy
 
-from tensorflow import kearas
+from tensorflow import keras
 from keras.datasets import mnist
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
